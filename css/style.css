@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100vh;
+    
+}
+
+#bg{
+    position: relative;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    margin-top: 5rem;
+  
+}
+
+#navlinks{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    text-decoration: none;
+
+}
+.navlist{
+    text-decoration: none;
+}
+
+#bg_img{
+    display: flex;
+    overflow-x: scroll;
+    height: 100vh;
+    
+}
+
+.img{
+position: relative;
+height: 100vh;
+/* box-sizing: content-box; */
+width: 100%;
+}
+
+#intro_text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+  text-align: center;
+
+}
+
+#logo{
+    text-decoration: none;
+}
