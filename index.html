@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amanda Williams</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -17,16 +18,39 @@
                     <a href="" id="logo">A-W</a>
                     <ul id="navlinks">
                         <li><a href="" class="navlist">Home</a></li>
-                        <li><a href="" class="navlist">Portfolio</a></li>
+
+                        <div class="dropdown">
+                            <li><a href="" class="navlist" class="dropbtn">Portfolio</a></li>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+
+
+                        </div>
+
+
+
+
+
+
                         <li><a href="" class="navlist">Bio</a></li>
                     </ul>
                 </nav>
 
-                <img class="img" src="./images/84770f_739671a90ffd468186f5e0de1ae9f625~mv2.webp" alt="">
-                <!-- <img class="img" src="./images/84770f_bd8217599cbd493db631c756eb186707~mv2.webp" alt="">
-                <img class="img" src="./images/84770f_d6b92de8b69741518159363381313cba~mv2.webp" alt="">
-                <img class="img" src="./images/84770f_f1adfc6e3afd4128a803e632e2673fdc~mv2.webp" alt=""> -->
-                
+                <div class="carousel_container">
+                    <div class="carousel">
+                        <img class="img" src="./images/84770f_f1adfc6e3afd4128a803e632e2673fdc~mv2.webp" alt="">
+                        <img class="img" src="./images/84770f_bd8217599cbd493db631c756eb186707~mv2.webp" alt="">
+                        <img class="img" src="./images/84770f_d6b92de8b69741518159363381313cba~mv2.webp" alt="">
+                        <img class="img" src="./images/84770f_739671a90ffd468186f5e0de1ae9f625~mv2.webp" alt="">
+                        <img class="img" src="./images/84770f_e28f4ac7f8fa470c9d76cca8d1f750b7~mv2.webp" alt="">
+
+                    </div>
+                </div>
+
+
                 <div id="intro_text">
                     <h1>Amanda Williams</h1>
                     <p>Landscape Photographer</p>
@@ -36,20 +60,74 @@
 
 
 
-
-
-
-
-
-
         </header>
 
+        <section id="gallery">
+            <div>
+                <div class="parent">
+
+                    <div>
+                        <h5>01</h5>
+                        <img id="size_img" src="./images/thedesert.webp" alt="">
+                        <h2>The Desert</h2>
+                        <h5>SEE MORE</h5>
+                    </div>
+
+                    <div>
+                        <h5>02</h5>
+                        <img id="size_img2" src="./images/highsierra.webp" alt="">
+                        <h2>High Sierra</h2>
+                        <h5>SEE MORE</h5>
+                    </div>
+
+                    <div>
+                        <h5>03</h5>
+                        <img id="size_img3" src="./images/beach.webp" alt="">
+                        <h2>Beach</h2>
+                        <h5>SEE MORE</h5>
+                    </div>
+
+                    <div>
+                        <h5>04</h5>
+                        <img id="size_img4" src="./images/forest.webp" alt="">
+                        <h2>Forest Wilderness</h2>
+                        <h5>SEE MORE</h5>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <footer>
+
+
+            <div id=footer_text>
+                <h5>© 2035 by Afua Darko.</h5>
+            </div>
+            <div id="footer_list">
+                <ul id="footer_links">
+                    <li><a class="social_links" href="https://www.facebook.com/?ref=logo">
+                            <h5>Facebook</h5>
+                        </a></li>
+                    <li><a class="social_links" href="https://www.instagram.com/">
+                            <h5>Instagram</h5>
+                        </a></li>
+                    <li><a class="social_links" href="https://x.com/i/flow/login?redirect_after_login=%2Fhome">
+                            <h5>Twitter</h5>
+                        </a></li>
+
+                </ul>
+            </div>
 
 
 
+
+        </footer>
 
 
     </div>
+    <script src="./js/script.js"></script>
+
 </body>
 
 </html>
